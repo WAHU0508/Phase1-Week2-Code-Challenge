@@ -26,8 +26,8 @@ html {
     padding: 15px 20px 18px 18px;
     border-radius: 2px;
     box-shadow: 2px 5px 5px #333;
-    width: 70%;
-    height: 60%;
+    width: 700px;
+    height: 400px;
     min-width: none;
     max-width: none;
     margin-top: 100px;
@@ -42,7 +42,7 @@ html {
     
 }
   #addItems{
-    margin-left: 200px;
+    margin-left: 50px;
     
     align-items: end;
     justify-content: left;
@@ -54,7 +54,7 @@ html {
     padding: 1px 20px 18px 18px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
-    margin-left: 500px;
+    margin-left: 350px;
     position: absolute;
     cursor: pointer;
     text-align: left;
