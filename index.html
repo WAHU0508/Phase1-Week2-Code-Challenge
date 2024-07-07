@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="main-content">
+        <h1>Shopping List</h1>
+        <h2 id="dayOfWeek">Day</h2>
+        <div id="myShoppingList">
+            <div id="addItems">
+                <label for="new_item" id="label">New item:</label><br>
+                <input type="text" id="new_item" name="new_item" placeholder="Add item"><br>
+                <div id="buttons">
+                    <button id="addButton">Add</button>
+                    <button id="clearButton">Clear</button>
+                </div>
+
+            </div>
+
+            <div id="list">
+                <h2>My List:</h2>
+                <h4>Instructions: Click to cross off item from list<br> Double click to edit then press enter</h4>
+                <ul id="itemsList">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

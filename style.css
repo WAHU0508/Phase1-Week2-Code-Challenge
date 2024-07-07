@@ -1,0 +1,103 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "Titillium Web", sans-serif;
+  }
+  
+  body {
+    min-height: 100%;
+    min-width: 100%;
+    background: linear-gradient(#7B4C94, #7D82B9);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  button {
+    font-size: 7px;
+  }
+  
+  #main-content {
+    position: relative;
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    border: 1px solid #333;
+    background: rgba(121, 116, 116, 0.3);
+    padding: 15px 20px 18px 18px;
+    border-radius: 2px;
+    box-shadow: 2px 5px 5px #333;
+    width: 70%;
+    height: 90%;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  #myShoppingList {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+  #addItems{
+    margin-left: 100px;
+    align-items: end;
+    justify-content: left;
+    text-align: left;
+  }
+  #list {
+    border: 1px solid #333;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1px 20px 18px 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
+    margin-left: 300px;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+    width: 300px;
+    list-style: square;
+    border-radius: 1cm;
+  }
+  #buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+  }
+  #addButton {
+    width: 50px;
+    height: 20px;
+    font-size: smaller;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 1cm;
+  }
+  #clearButton {
+    width: 50px;
+    height: 20px;
+    font-size: smaller;
+    border: 2px solid black;
+    border-radius: 1cm;
+  }
+  .purchased {
+    text-decoration: line-through;
+    color: rgb(112, 111, 111);
+  }
+  .editing {
+    background-color: #f2f2f2;
+  }
+  #new_item {
+    border: 2px solid black;
+    width: 200px;
+    height: 30px;
+    border-radius: 0.5cm;
+    padding: 5px;
+    
+}
+#label {
+    font-weight: bold;
+}
+  h4 {
+    font-size: xx-small;
+  }
+
+  
