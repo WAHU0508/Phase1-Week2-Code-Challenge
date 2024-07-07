@@ -28,6 +28,8 @@ html {
     box-shadow: 2px 5px 5px #333;
     width: 70%;
     height: 60%;
+    min-width: none;
+    max-width: none;
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
@@ -36,12 +38,12 @@ html {
     position: absolute;
     display: flex;
     flex-direction: row;
-    margin:200px;
+    margin-top: 200px;
     
 }
   #addItems{
-    margin-left: 25px;
-    margin-right: 10px;
+    margin-left: 200px;
+    
     align-items: end;
     justify-content: left;
     text-align: left;
@@ -52,7 +54,7 @@ html {
     padding: 1px 20px 18px 18px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
-    margin-left: 300px;
+    margin-left: 500px;
     position: absolute;
     cursor: pointer;
     text-align: left;
