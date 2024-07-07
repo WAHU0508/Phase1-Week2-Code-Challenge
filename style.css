@@ -17,7 +17,7 @@ html {
   }
   
   #main-content {
-    position: relative;
+    position: absolute;
     display: flex;
     text-align:center;
     flex-direction: column;
@@ -27,19 +27,21 @@ html {
     border-radius: 2px;
     box-shadow: 2px 5px 5px #333;
     width: 70%;
-    height: 90%;
+    height: 60%;
     margin-top: 100px;
     margin-left: 200px;
     margin-right: 200px;
   }
   #myShoppingList {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: row;
+    margin:200px;
     
 }
   #addItems{
-    margin-left: 100px;
+    margin-left: 25px;
+    margin-right: 10px;
     align-items: end;
     justify-content: left;
     text-align: left;
@@ -51,7 +53,7 @@ html {
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
     margin-left: 300px;
-    position: relative;
+    position: absolute;
     cursor: pointer;
     text-align: left;
     width: 300px;
