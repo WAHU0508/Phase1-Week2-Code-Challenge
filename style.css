@@ -10,78 +10,54 @@ html {
     background: linear-gradient(#7B4C94, #7D82B9);
     background-repeat: repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
   }
   
   button {
-    font-size: 7px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    cursor: pointer;
   }
   
   #main-content {
-    position: absolute;
     display: flex;
-    text-align:center;
+    align-items: center;
     flex-direction: column;
-    border: 1px solid #333;
-    background: rgba(121, 116, 116, 0.3);
-    padding: 15px 20px 18px 18px;
-    border-radius: 2px;
-    box-shadow: 2px 5px 5px #333;
-    width: 700px;
-    height: 400px;
-    min-width: none;
-    max-width: none;
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
   }
   #myShoppingList {
-    position: absolute;
     display: flex;
-    flex-direction: row;
-    margin-top: 200px;
-    
-}
-  #addItems{
-    margin-left: 50px;
-    
-    align-items: end;
-    justify-content: left;
-    text-align: left;
-  }
-  #list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.75);
     border: 1px solid #333;
-    background: rgba(255, 255, 255, 0.75);
-    padding: 1px 20px 18px 18px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px #333;
-    margin-left: 350px;
-    position: absolute;
+    padding: 20px;
+}
+  #list {
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px #333;
     cursor: pointer;
     text-align: left;
-    width: 300px;
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
     list-style: square;
-    border-radius: 1cm;
   }
-  #buttons {
-    display: flex;
-    flex-direction: row;
-    margin-top: 4px;
-  }
-  #addButton {
-    width: 50px;
-    height: 20px;
-    font-size: smaller;
-    margin-right: 10px;
-    border: 2px solid black;
-    border-radius: 1cm;
-  }
-  #clearButton {
-    width: 50px;
-    height: 20px;
-    font-size: smaller;
-    border: 2px solid black;
-    border-radius: 1cm;
-  }
+  
   .purchased {
     text-decoration: line-through;
     color: rgb(112, 111, 111);
@@ -91,17 +67,32 @@ html {
   }
   #new_item {
     border: 2px solid black;
-    width: 200px;
+    width: 100%;
+    max-width: 300px;
     height: 30px;
-    border-radius: 0.5cm;
+    border-radius: 20px;
     padding: 5px;
     
 }
 #label {
     font-weight: bold;
 }
-  h4 {
-    font-size: xx-small;
+h4 {
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+  #myShoppingList {
+    padding: 10px;
   }
+  #list {
+    padding: 10px;
+  }
+  button {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+}
 
   
